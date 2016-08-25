@@ -1,0 +1,36 @@
+{
+    "id": "nodebb-plugin-anime-stream",
+    "name": "Anime VideoStream plugin",
+    "description": "An extended Markdown parser for NodeBB",
+    "url": "https://github.com/Touno-K/nodebb-plugin-anime-stream",
+    "library": "./library.js",
+    "hooks": [
+        { 
+            "hook": "filter:admin.header.build", "method": "admin.menu" },
+        {
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:hotswap.prepare", "method": "prepare"
+		},
+		{
+			"hook": "filter:header.build", "method": "addNavigation"
+		}
+    ],
+    "less": [
+        "static/style.less"
+    ],
+    "css": [
+        "static/style.css"
+    ],
+    "scripts": [
+        "static/lib/main.js"
+
+    ],
+    "acpScripts": [
+    ],
+    "staticDirs": {
+        "styles": "./static"
+    },
+    "templates": "./templates"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-anime-stream",
+  "version": "1.0.0",
+  "description": "A anime stream for NodeBB",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Touno-K/nodebb-plugin-anime-stream"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "stream"
+  ],
+  "author": "ToUNo <info.dvgamer@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Touno-K/nodebb-plugin-anime-stream/issues"
+  },
+  "dependencies": {},
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}
